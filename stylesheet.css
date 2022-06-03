@@ -1,0 +1,200 @@
+body{
+    font-family: 'Karla';
+}
+
+header{
+    margin-bottom: 196px;
+}
+
+p{
+    font-family: 'Karla', sans-serif;
+    color: hsl(270, 1%, 35%);
+}
+
+/*navbar*/
+.topnav{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: rgb(46, 32, 32);
+    font-weight: 600;
+}
+
+/* view plans button inside navbar*/
+.view-btn{
+    width: 118px;
+    padding: 8px;
+    border: 1px rgb(54, 53, 53) solid;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: rgb(54, 53, 53) solid;
+}
+/*logo img "insure"*/
+.topnav img{
+    width: 87px;
+    height: 15px;
+}
+
+/*end of navbar*/ 
+
+/*purple box under the navbar*/
+.header-box{
+    background-color: hsl(256, 26%, 20%);
+    height: 340px;
+    padding: 156px;
+}
+
+.header-box p{
+    color: rgba(255, 255, 255, 0.596);
+}
+
+.h1-texts{
+  
+    margin-top: 0px;
+    color: white;
+    font-size: 50px;
+    font-family: 'DM Serif Display', serif;
+}
+
+
+.second-button{
+border: 1px white solid;
+padding: 12px;
+background-color: hsl(256, 26%, 20%);
+color: white;
+width: 130px;
+
+}
+
+hr{
+    margin-left: 0px;
+  
+}
+/*end of purple header underneath navbar*/ 
+
+/*family image*/
+
+.family-picture{
+    position: relative;
+    margin-left: 700px;
+    margin-top: -315px;
+}
+
+
+.threeboxes{
+    display: flex;
+    gap: 270px;
+}
+
+.h1-texts > span{
+    color: rgb(54, 53, 53);
+}
+
+h4{
+    color: hsl(270, 9%, 17%);
+}
+
+.main-section{
+    padding: 115px;
+}
+
+
+
+/*----THE PURPLE FIND OUT MORE BOX AND THE WRAP CONTAINER AROUND IT*/
+
+.BOX-WRAP{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.find-out-box{
+    
+    background-color: hsl(256, 26%, 20%);
+    height: 116px;
+    width: 62%;
+    padding: 73px;
+   
+
+}
+
+/*HOW-WE WORK BUTTON THAT IS INSIDE THE PURPLE BOX*/
+
+.how-we-work{
+    padding: 10px;
+    height: 41px;
+    position: absolute;
+    margin-left: 443px;
+    margin-top: 125px;
+    border: 1.5px white solid;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    
+}
+
+
+/*-----------END OF FIND OUT MORE PURPLE BOX---------*/
+
+
+/*-----------FOOTER CONTAINER ---------*/
+.footer-container{
+    width: 100%;
+    height: 100px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+/*-----------THE BOTTOM COMPANY LOGO ---------*/
+.insure-logo2{
+    margin-top: 0px;
+    
+}
+
+footer{
+    height: 135px;
+    background-color: hsl(0, 0%, 98%);
+    padding: 94px;
+}
+
+#logo-container{
+    display: flex;
+    justify-content: end;
+    gap: 33px;
+    margin-top: -29px;
+}
+
+#bottom-nav{
+    margin-bottom: 35px;
+}
+
+.bottom-boxes{
+    display: flex;
+   justify-content: space-between;
+}
+
+ul{
+   
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: -41px;
+    gap: 16px;
+}
+
+
+
+li{
+    font-family: 'Karla', sans-serif;
+    color: hsl(256, 26%, 20%);
+    font-weight: bold;
+}
+
+
+h6{
+    color: hsl(273, 4%, 51%);
+    font-family: 'Karla', sans-serif;
+}
